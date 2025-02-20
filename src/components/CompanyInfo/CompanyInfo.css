@@ -1,0 +1,39 @@
+.info-container {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+    /* text-align: center; */
+  }
+  
+  .image-section img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .text-section {
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 18px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  a {
+    color: #4c5165;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,40 @@
+.image-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  width: 45%;
+}
+
+.line_row {
+  border: 1px solid #000;
+}
+
+.line_col {
+  border: 1px solid #000;
+}
+
+.image:last-child {
+  border-right: none;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+
+  .image-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .image {
+    width: 100%;
+  }
+}
